@@ -1,0 +1,10 @@
+# Proximity Detection Scripts and Programs
+
+A set of applescripts and a cli program to enable easy use of the Proximity OS X program to lock and unlock your Mac via a bluetooth device's proximity to your Mac.
+
+Note: The applescripts assume that the `notif` program is installed and run-able at the command line as `notif`, so the easiest thing to do is to add an alias in your bash profile to this effect --
+
+	alias notif="/FULL/PATH/TO/proximity-detection-scripts/notif/bin/notif"
+
+- For use with [Proximity](http://reduxcomputing.com/)
+- Scripts derived from blog entry: [The Technocrat](http://web.mac.com/jhollington/technocrat/The_Technocrat/Entries/2007/3/18_Bluetooth_Proximity_Detection_on_OS_X.html)
