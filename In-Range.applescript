@@ -8,7 +8,7 @@ on run
 	-- disable screensaver password requirement
 	do shell script "defaults -currentHost write com.apple.screensaver askForPassword -int 0"
 	-- update loginwindow to take that plist change
-	do shell script "notif"
+	do shell script "/Users/ssouder/repos/proximity-detection-scripts/notif/bin/notif"
 	-- turn off the screensaver
 	tell application "ScreenSaverEngine" to quit
 end run
